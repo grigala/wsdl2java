@@ -1,4 +1,4 @@
-package no.nils.wsdl2java
+package ch.grigala.wsdl2java
 
 import org.gradle.api.Project
 import org.gradle.testfixtures.ProjectBuilder

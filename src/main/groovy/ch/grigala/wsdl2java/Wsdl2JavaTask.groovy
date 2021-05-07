@@ -1,4 +1,4 @@
-package no.nils.wsdl2java
+package ch.grigala.wsdl2java
 
 import groovy.io.FileType
 import org.gradle.api.DefaultTask

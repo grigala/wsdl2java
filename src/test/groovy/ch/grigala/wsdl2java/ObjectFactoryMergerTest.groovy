@@ -1,4 +1,4 @@
-package no.nils.wsdl2java
+package ch.grigala.wsdl2java
 
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
