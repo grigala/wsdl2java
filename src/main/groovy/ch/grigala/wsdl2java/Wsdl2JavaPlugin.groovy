@@ -9,9 +9,11 @@ class Wsdl2JavaPlugin implements Plugin<Project> {
     public static final String WSDL2JAVA = "wsdl2java"
 
     private static final JAVA_9_DEPENDENCIES = [
-            "javax.xml.bind:jaxb-api:2.3.1",
-            "javax.xml.ws:jaxws-api:2.3.1",
-            "org.glassfish.jaxb:jaxb-runtime:2.3.2",
+//            "javax.xml.bind:jaxb-api:2.3.1",
+//            "javax.xml.ws:jaxws-api:2.3.1",
+            "jakarta.xml.bind:jakarta.xml.bind-api:3.0.0",
+            "jakarta.xml.ws:jakarta.xml.ws-api:3.0.0",
+            "org.glassfish.jaxb:jaxb-runtime:3.0.0",
             "org.glassfish.main.javaee-api:javax.jws:3.1.2.2",
             "com.sun.xml.messaging.saaj:saaj-impl:1.5.1"
     ]
