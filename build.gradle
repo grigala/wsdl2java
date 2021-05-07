@@ -41,7 +41,7 @@ test {
 gradlePlugin {
     plugins {
         wsdl2java {
-            id = 'ch.griala.wsdl2java'
+            id = 'ch.grigala.wsdl2java'
             implementationClass = 'ch.grigala.wsdl2java.Wsdl2JavaPlugin'
         }
     }
